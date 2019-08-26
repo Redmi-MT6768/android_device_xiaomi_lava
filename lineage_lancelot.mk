@@ -29,7 +29,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := lancelot
 PRODUCT_NAME := lineage_lancelot
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi 9 Prime
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
