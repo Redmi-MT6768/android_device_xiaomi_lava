@@ -80,6 +80,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NfcNci
 
+# KPOC
+PRODUCT_PACKAGES += \
+    libsuspend \
+    android.hardware.health@2.0
+
 # IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
