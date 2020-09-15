@@ -33,3 +33,10 @@ android_app {
         "privapp-permissions_org.lineageos.dt2w.lancelot"
     ]
 }
+
+prebuilt_etc {
+    name: "privapp-permissions_org.lineageos.dt2w.lancelot",
+    sub_dir: "permissions",
+    src: "privapp-permissions_org.lineageos.dt2w.lancelot.xml",
+    filename_from_src: true,
+}
