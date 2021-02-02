@@ -1,7 +1,7 @@
-Device configuration for Redmi 9 (lancelot / cattail / galahad)
+Device configuration for Redmi 9 (lancelot / galahad)
 =================================================
 
-The Redmi 9 (codenamed lancelot) is a mid-range smartphone from Xiaomi, released in June 2020.
+The Redmi 9 (codenamed lancelot / galahad) is a mid-range smartphone from Xiaomi, released in June 2020.
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
