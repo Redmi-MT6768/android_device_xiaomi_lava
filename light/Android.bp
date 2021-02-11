@@ -15,8 +15,8 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.lancelot",
-    init_rc: ["android.hardware.light@2.0-service.lancelot.rc"],
+    name: "android.hardware.light@2.0-service.lava",
+    init_rc: ["android.hardware.light@2.0-service.lava.rc"],
     srcs: ["service.cpp", "Light.cpp"],
     shared_libs: [
         "libhardware",

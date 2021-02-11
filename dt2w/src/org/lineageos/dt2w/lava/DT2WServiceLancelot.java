@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.lancelot;
+package org.lineageos.dt2w.lava;
 
 import android.app.Service;
 import android.content.ContentResolver;
@@ -13,8 +13,8 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings.Secure;
 
-public class DT2WServiceLancelot extends Service {
-    private static final String TAG = "DT2WServiceLancelot";
+public class DT2WServiceLava extends Service {
+    private static final String TAG = "DT2WServiceLava";
     private Context mContext;
     private Handler mHandler;
     private CustomSettingsObserver mCustomSettingsObserver;
@@ -53,7 +53,7 @@ public class DT2WServiceLancelot extends Service {
         void update() {
             int dt2wValue = Secure.getInt(mContext.getContentResolver(), Secure.DOUBLE_TAP_TO_WAKE, 0);
             boolean dt2wEnabled = dt2wValue == 1;
-            SystemProperties.set("persist.sys.lancelot.dt2w", dt2wEnabled ? "1" : "0");
+            SystemProperties.set("persist.sys.lava.dt2w", dt2wEnabled ? "1" : "0");
         }
 
         @Override

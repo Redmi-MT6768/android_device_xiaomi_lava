@@ -1,4 +1,4 @@
-package org.lineageos.dt2w.lancelot;
+package org.lineageos.dt2w.lava;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.UserHandle;
 
 public class OnBootCompleteReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
-        Intent sIntent = new Intent(context, DT2WServiceLancelot.class);
+        Intent sIntent = new Intent(context, DT2WServiceLava.class);
         context.startServiceAsUser(sIntent, UserHandle.CURRENT);
     }
 }

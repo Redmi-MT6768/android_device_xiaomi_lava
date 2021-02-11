@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/lancelot
+DEVICE_PATH := device/xiaomi/lava
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -26,7 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/lancelot/lancelot-vendor.mk)
+$(call inherit-product, vendor/xiaomi/lava/lava-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Lancelot
+    DT2W-Service-Lava 
 
 # Fstab
 PRODUCT_COPY_FILES += \
@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
  
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lancelot
+    android.hardware.light@2.0-service.lava 
   
 # NFC stack (AOSP)
 PRODUCT_PACKAGES += \

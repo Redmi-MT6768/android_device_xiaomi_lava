@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/lancelot
+DEVICE_PATH := device/xiaomi/lava
 
 # Architecture
 TARGET_ARCH := arm64
@@ -36,7 +36,7 @@ USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := lancelot
+TARGET_BOOTLOADER_BOARD_NAME := lava 
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -53,8 +53,8 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lancelot
-TARGET_RECOVERY_DEVICE_MODULES := libinit_lancelot
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lava
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lava 
 
 # Kernel
 TARGET_KERNEL_HEADER_ARCH := arm64
@@ -113,7 +113,7 @@ BOARD_MAIN_PARTITION_LIST := \
 BOARD_SUPER_PARTITION_ERROR_LIMIT := 6012043264
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lancelot,galahad
+TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

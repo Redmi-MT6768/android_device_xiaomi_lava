@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <permissions>
-    <privapp-permissions package="org.lineageos.dt2w.lancelot">
+    <privapp-permissions package="org.lineageos.dt2w.lava">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 </permissions>
