@@ -23,8 +23,6 @@ TARGET_BOOTLOADER_BOARD_NAME := lava
 
 # Kernel
 TARGET_KERNEL_CONFIG := lancelot_defconfig
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt/dtb
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lancelot,galahad,shiva
