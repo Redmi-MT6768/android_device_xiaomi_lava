@@ -31,9 +31,6 @@ vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 
 # Audio-Hardware
-vendor/bin/hw/android.hardware.audio.service.mediatek
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
-vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mt6768.so
 vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/hw/audio.usb.mt6768.so
@@ -41,7 +38,6 @@ vendor/lib64/hw/audio.primary.mt6768.so
 vendor/lib64/hw/audio.r_submix.mt6768.so
 vendor/lib64/hw/audio.usb.mt6768.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/vendor.mediatek.hardware.audio@6.1.so
 
 # Bluetooth
