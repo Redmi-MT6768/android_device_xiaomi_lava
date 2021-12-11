@@ -832,6 +832,13 @@ vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
 vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/init/init.thermal_manager.rc
+vendor/etc/.tp/.ht120.mtc
+vendor/etc/.tp/.thermal_policy_00
+vendor/etc/.tp/.thermal_policy_03
+vendor/etc/.tp/.thermal_policy_05
+vendor/etc/.tp/.thermal_policy_08
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
