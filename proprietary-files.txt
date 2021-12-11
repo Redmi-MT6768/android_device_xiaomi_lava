@@ -359,6 +359,7 @@ vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefrighthw.so
 
 # Mediatek
+vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.dfps@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
@@ -571,6 +572,7 @@ vendor/etc/audio_param_ce/VoWDspAec_AudioParam.xml
 vendor/etc/audio_param_ce/VoWDspAec_ParamUnitDesc.xml
 vendor/etc/audio_param_ce/VoWHwVad_AudioParam.xml
 vendor/etc/audio_param_ce/VoWHwVad_ParamUnitDesc.xml
+vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.dfps@1.0-service.rc
 vendor/etc/init/vendor.mediatek.hardware.dplanner@2.0-service.rc
