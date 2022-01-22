@@ -1275,7 +1275,6 @@ vendor/lib/libapmonitor_vendor.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
 vendor/lib/libaurisysdemo.so
-vendor/lib/libavservices_minijail.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
 vendor/lib/libbwc.so
