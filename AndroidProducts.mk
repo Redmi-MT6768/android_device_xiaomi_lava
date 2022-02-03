@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/aosp_lava.mk
+   $(LOCAL_DIR)/havoc_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lava-user \
-    aosp_lava-userdebug \
-    aosp_lava-eng
+    havoc_lava-user \
+    havoc_lava-userdebug \
+    havoc_lava-eng
