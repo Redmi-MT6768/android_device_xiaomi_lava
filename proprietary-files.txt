@@ -578,7 +578,6 @@ vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
@@ -595,7 +594,6 @@ vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
 vendor/lib/libMtkOmxVdecEx.so
 vendor/lib/libMtkOmxVenc.so
-vendor/lib/libmtkperf_client_vendor.so
 vendor/lib/libmtkproperty.so
 vendor/lib/libmtkrillog.so
 vendor/lib/libmtkshifter_vendor.so
@@ -618,7 +616,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
@@ -630,12 +627,10 @@ vendor/lib/vendor.mediatek.hardware.pq@2.4.so
 vendor/lib/vendor.mediatek.hardware.pq@2.5.so
 vendor/lib/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
-vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
@@ -708,7 +703,6 @@ vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtknetutils.so
 vendor/lib64/libMtkOmxCore.so
-vendor/lib64/libmtkperf_client_vendor.so
 vendor/lib64/libmtkproperty.so
 vendor/lib64/libmtkrillog.so
 vendor/lib64/libmtkrilutils.so
@@ -742,14 +736,10 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
-vendor/lib64/vendor.mediatek.hardware.power@1.1.so
-vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
@@ -778,12 +768,35 @@ vendor/lib64/libneuropilot_hal_utils.so
 
 # Postprocessing
 
-# Power-Hardware
+# Power-Hardware - from Redmi/merlin_global/merlin:10/QP1A.190711.020/V12.0.8.0.QJOMIXM:user/release-keys
+vendor/bin/hw/power_native_test_v_1_0
+vendor/lib/libfpspolicy.so
+vendor/lib/libperfctl_vendor.so
+vendor/lib/libpowerhal.so
+vendor/lib/libpowerhalwrap_vendor.so
+vendor/lib/libmtkperf_client_vendor.so
+vendor/lib/vendor.mediatek.hardware.power@2.0.so
+vendor/lib/vendor.mediatek.hardware.power@2.1.so
+vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt6768.so
+vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/lib64/libfpspolicy.so
+vendor/lib64/libperfctl_vendor.so
+vendor/lib64/libpowerhal.so
+vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/libmtkperf_client_vendor.so
+vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6768.so
--vendor/etc/vintf/manifest/power-default.xml
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+vendor/lib64/vendor.mediatek.hardware.power@2.1.so
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/etc/power_whitelist_cfg.xml
 
 # QMI
 
@@ -887,8 +900,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/H9HP16AECMMDAR-KMM_P08.bin
 vendor/bin/hw/displayfeaturecontrol
 vendor/bin/hw/mtkfusionrild
-vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_1
 vendor/bin/hw/vtservice_hidl
 vendor/bin/initprop_bin
 vendor/bin/ipsec_mon
@@ -1284,7 +1295,6 @@ vendor/lib/libdpframework.so
 vendor/lib/libDR.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libfile_op.so
-vendor/lib/libfpspolicy.so
 vendor/lib/libFrameRecord.so
 vendor/lib/libged.so
 vendor/lib/libgpud.so
@@ -1325,11 +1335,8 @@ vendor/lib/libnvram_daemon_callback.so
 vendor/lib/libnvram_platform.so
 vendor/lib/libnvram_sec.so
 vendor/lib/libopus.so
-vendor/lib/libperfctl_vendor.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpkm.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpq_cust.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpq_prot.so
@@ -1439,7 +1446,6 @@ vendor/lib64/libfeature_rss.so
 vendor/lib64/libfft_vendor.so
 vendor/lib64/libfile_op.so
 vendor/lib64/libforkexecwrap.so
-vendor/lib64/libfpspolicy.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libged.so
@@ -1487,11 +1493,8 @@ vendor/lib64/libnvram.so
 vendor/lib64/libnvram_daemon_callback.so
 vendor/lib64/libnvram_platform.so
 vendor/lib64/libnvram_sec.so
-vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libpkm.so
-vendor/lib64/libpowerhal.so
-vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpq_cust.so
 vendor/lib64/libpq_cust_base.so
 vendor/lib64/libpq_prot.so
