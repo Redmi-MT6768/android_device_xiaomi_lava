@@ -776,8 +776,6 @@ vendor/lib64/libneuropilot_hal_utils.so
 # Postprocessing
 
 # Power-Hardware
-vendor/lib/hw/power.default.so
-vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6768.so
 -vendor/etc/vintf/manifest/power-default.xml
 
@@ -1356,7 +1354,6 @@ vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpud_vcodec.so
-vendor/lib/libvpx.so
 vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
