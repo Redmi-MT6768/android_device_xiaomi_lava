@@ -577,7 +577,6 @@ vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
@@ -617,7 +616,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
@@ -779,7 +777,6 @@ vendor/lib64/libneuropilot_hal_utils.so
 
 # Power-Hardware
 vendor/lib/hw/power.default.so
-vendor/lib/hw/power.mt6768.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/power.mt6768.so
 -vendor/etc/vintf/manifest/power-default.xml
@@ -1322,11 +1319,8 @@ vendor/lib/libnvram_daemon_callback.so
 vendor/lib/libnvram_platform.so
 vendor/lib/libnvram_sec.so
 vendor/lib/libopus.so
-vendor/lib/libperfctl_vendor.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpkm.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/libpq_cust.so
 vendor/lib/libpq_cust_base.so
 vendor/lib/libpq_prot.so
