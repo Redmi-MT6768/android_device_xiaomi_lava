@@ -883,8 +883,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/H9HP16AECMMDAR-KMM_P08.bin
 vendor/bin/hw/displayfeaturecontrol
 vendor/bin/hw/mtkfusionrild
-vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_1
 vendor/bin/hw/vtservice_hidl
 vendor/bin/initprop_bin
 vendor/bin/ipsec_mon
