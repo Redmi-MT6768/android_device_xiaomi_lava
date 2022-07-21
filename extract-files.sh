@@ -26,6 +26,9 @@ source "${HELPER}"
 
 function blob_fixup {
     case "$1" in
+    	vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc)
+            echo "$(cat ${2}) input" > "${2}"
+       	    ;;
         lib/libsink.so)
             "$PATCHELF" --add-needed "libshim_vtservice.so" "$2"
             ;;
