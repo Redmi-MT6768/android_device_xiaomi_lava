@@ -628,7 +628,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.4.so
 vendor/lib/vendor.mediatek.hardware.pq@2.5.so
 vendor/lib/vendor.mediatek.hardware.pq@2.6.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.dfps@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.keyinstall@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.5-impl.so
@@ -778,7 +777,6 @@ vendor/lib64/libneuropilot_hal_utils.so
 
 # Power-Hardware
 vendor/lib64/hw/power.mt6768.so
--vendor/etc/vintf/manifest/power-default.xml
 
 # QMI
 
