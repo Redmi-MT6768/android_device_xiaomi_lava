@@ -1475,7 +1475,7 @@ vendor/lib64/libnvram_sec.so
 vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpixelflinger.so
 vendor/lib64/libpkm.so
-vendor/lib64/libpowerhal.so
+-vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
 vendor/lib64/libpq_cust.so
 vendor/lib64/libpq_cust_base.so
