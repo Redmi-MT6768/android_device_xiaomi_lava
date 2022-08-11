@@ -645,7 +645,7 @@ vendor/lib64/libmtkcam.featurepipe.streaming.so
 vendor/lib64/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib64/libmtkcam.logicalmodule.so
 vendor/lib64/libmtkcam_3rdparty.core.so
-vendor/lib64/libmtkcam_3rdparty.customer.so
+vendor/lib64/libmtkcam_3rdparty.customer.so|2bcac544a86838d73125a0831188778e618175a7
 vendor/lib64/libmtkcam_3rdparty.mtk.so
 vendor/lib64/libmtkcam_3rdparty.so
 vendor/lib64/libmtkcam_calibration_convertor.so
